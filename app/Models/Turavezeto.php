@@ -14,7 +14,7 @@ class Turavezeto extends Model
         'email',
         'adress',
         'telefonszam',
-        'beleoesdatuma'
+        'belepesdatuma'
 
 
     ];
