@@ -17,5 +17,9 @@ class TuraTipus extends Model
         'tavolsag',
         'szintkulonbseg',
         'kerekpar',
+        'indulashelye',
+        'erkezeshelye',
+        'leiras',
+
     ];
 }
