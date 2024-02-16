@@ -17,8 +17,8 @@ class TuraTipus extends Model
         'tavolsag',
         'szintkulonbseg',
         'kerekpar',
-        'indulashelye',
-        'erkezeshelye',
+        'indulas_helye',
+        'erkezes_helye',
         'leiras',
 
     ];

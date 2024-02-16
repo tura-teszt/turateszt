@@ -20,8 +20,8 @@ return new class extends Migration
             $table->integer('szintkulonbseg');
             $table->boolean('kerekpar');
              
-            $table->string('indulashelye');
-            $table->string('erkezeshelye');
+            $table->string('indulas_helye');
+            $table->string('erkezes_helye');
              $table->string('leiras');
 
 

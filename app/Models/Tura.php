@@ -17,10 +17,9 @@ class Tura extends Model
         'turavezeto',
 
         'ar',
-        'minLetszam',
-        'maxLetszam',
+        'min_letszam',
+        'max__letszam',
 
     ];
-
-
+l
 }
