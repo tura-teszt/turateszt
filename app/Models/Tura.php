@@ -15,11 +15,9 @@ class Tura extends Model
         'tipus',
         'idopont',
         'turavezeto',
-
         'ar',
         'min_letszam',
         'max__letszam',
 
     ];
-l
 }
