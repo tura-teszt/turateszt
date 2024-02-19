@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tura_tipuses', function (Blueprint $table) {
+        Schema::create('turaTipuses', function (Blueprint $table) {
             $table->id('tipus');
             $table->string('turanev');
             $table->string('tajegyseg');
@@ -20,8 +20,8 @@ return new class extends Migration
             $table->integer('szintkulonbseg');
             $table->boolean('kerekpar');
              
-            $table->string('indulas_helye');
-            $table->string('erkezes_helye');
+            $table->string('indulashelye');
+            $table->string('erkezeshelye');
              $table->string('leiras');
 
 
