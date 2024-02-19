@@ -12,7 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('turatipuses', function (Blueprint $table) {
-            $table->id();
+            $table->id('tipus');
+            $table->string('turanev');
+            $table->string('tajegyseg');
+            $table->string('nehezseg');
+            $table->integer('tavolsag');
+            $table->integer('szintkulonbseg');
+            $table->boolean('kerekpar');
             $table->timestamps();
         });
     }
