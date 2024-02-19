@@ -18,17 +18,10 @@ return new class extends Migration
             $table->string('nehezseg');
             $table->integer('tavolsag');
             $table->integer('szintkulonbseg');
-            $table->boolean('kerekpar');
-             
+            $table->boolean('kerekpar');            
             $table->string('indulashelye');
             $table->string('erkezeshelye');
              $table->string('leiras');
-
-
-
-
-
-
             $table->timestamps();
         });
     }
