@@ -11,17 +11,24 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('turatipuses', function (Blueprint $table) {
-             $table->foreignId('book_id')->references('book_id')->on('books');
+        Schema::create('turaTipuses', function (Blueprint $table) {
+            $table->id('tipus');
             $table->string('turanev');
             $table->string('tajegyseg');
             $table->string('nehezseg');
             $table->integer('tavolsag');
             $table->integer('szintkulonbseg');
             $table->boolean('kerekpar');
+             
             $table->string('indulashelye');
             $table->string('erkezeshelye');
-            $table->string('leiras');
+             $table->string('leiras');
+
+
+
+
+
+
             $table->timestamps();
         });
     }
@@ -31,6 +38,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('turatipuses');
+        Schema::dropIfExists('turaTipuses');
     }
 };
